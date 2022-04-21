@@ -23,6 +23,9 @@ body {
   background-color: #F1EBE4;
   margin-bottom: 5px;
 }
+.navigation:nth-child(n) a:hover{
+  color: #CAB5EB;
+}
 .navigation_link-logo {
   padding: 8px;
   text-decoration: none;
@@ -91,6 +94,9 @@ body {
   border-radius: 30px;
   margin-left: 65px;
 }
+.main_link:nth-child(n):hover{
+  border:3px solid #CAB5EB;
+}
 .main_link:visited {
   color: black;
 }
@@ -108,17 +114,24 @@ body {
   width: 128px;
   height: auto;
 }
+.main_img-btn-down:hover {
+  box-sizing: border-box;
+  border:3px solid #CAB5EB;
+  border-radius: 50%;
+  background-color: #c4b2e2;
+}
 .main_section {
   text-align: left;
   font-size: 72px;
-  min-height: 494px;
+  min-height: auto;
   max-width: 1240px;
   display: flex;
+  padding-bottom: 160px;
+  border-bottom: 1px solid #111010;
 }
 .goods {
   padding-top: 80px;
   padding-bottom: 80px;
-  border-top: 1px solid #111010;
   border-bottom: 1px solid #111010;
 }
 .goods-wrapper {
@@ -154,11 +167,18 @@ body {
 .endless-rows {
   font-size: 128px;
   max-width: 1376px;
+  border-bottom: 1px solid #111010;
 }
 .endless-row {
   display: flex;
   justify-content: center;
   align-items:center;
+}
+.endless-row:first-of-type {
+  padding-top: 150px;
+}
+.endless-row:last-of-type {
+  padding-bottom: 150px;
 }
 .enddless-rows_element{
   margin: 15px;
