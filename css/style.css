@@ -2,6 +2,9 @@
   font-family: 'DM Sans', sans-serif;
   box-sizing: border-box;
 }
+a:focus {
+ outline: none ;
+}
 .page-wrapper {
   margin: 0 auto;
   max-width: 1440px;
