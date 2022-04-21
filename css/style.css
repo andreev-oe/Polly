@@ -5,10 +5,13 @@
 a:focus {
  outline: none ;
 }
+body {
+  margin: 0;
+}
 .page-wrapper {
   margin: 0 auto;
   max-width: 1440px;
-  height: 2000px;
+  height: auto;
   background-color: #F1EBE4;
 }
 .navigation {
@@ -45,7 +48,7 @@ a:focus {
   margin-left: auto;
 }
 .navigation:nth-of-type(n) a{
-  padding: 50px;
+  padding: 0 50px;
 }
 .navigation:nth-of-type(n) a:first-of-type{
   padding-left: 8px;
@@ -57,9 +60,6 @@ a:focus {
 .main {
   margin: 0 auto;
   max-width: 1376px;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
   background-color: #F1EBE4;
 }
 .main_page {
@@ -71,10 +71,6 @@ a:focus {
   flex-wrap: wrap;
   flex-direction: column;
 }
-/* .main_img {
-  max-width: 100%;
-  height: auto;
-} */
 .main_text {
   line-height: 106px;
   width: 640px;
@@ -113,8 +109,37 @@ a:focus {
   height: auto;
 }
 .main_section {
+  text-align: left;
   font-size: 72px;
+  height: 494px;
+  width: 1240px;
 }
+.goods {
+  display: flex;
+  justify-content: space-evenly;
+}
+.goods_card {
+  font-size: 18px;
+  line-height: 36px;
+  width: 325px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.goods_card-adv {
+  font-size: 48px;
+  width: 300px;
+  min-height: 535px;
+}
+.goods_card-img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #CAB5EB;
+}
+.goods_card-price-old {
+  text-decoration: line-through;
+}
+
 
 
 
