@@ -64,7 +64,7 @@ body {
 }
 .main_page {
   background-image: url('/img/main-picture.png');
-  width: 100%;
+  max-width: 100%;
   height: 640px;
   margin-bottom: 152px;
   display: flex;
@@ -111,12 +111,20 @@ body {
 .main_section {
   text-align: left;
   font-size: 72px;
-  height: 494px;
-  width: 1240px;
+  min-height: 494px;
+  max-width: 1240px;
+  display: flex;
 }
 .goods {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  border-top: 1px solid #111010;
+  border-bottom: 1px solid #111010;
+}
+.goods-wrapper {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  margin-bottom: 40px;
 }
 .goods_card {
   font-size: 18px;
@@ -138,6 +146,25 @@ body {
 }
 .goods_card-price-old {
   text-decoration: line-through;
+}
+.goods_link {
+  text-align: right;
+  font-size: 20px;
+}
+.endless-rows {
+  font-size: 128px;
+  max-width: 1376px;
+}
+.endless-row {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+.enddless-rows_element{
+  margin: 15px;
+  display: flex;
+  justify-content: center;
+  align-items:center;
 }
 
 
