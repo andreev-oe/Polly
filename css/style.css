@@ -201,14 +201,19 @@ body {
 }
 .goods_home-container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  gap: 90px;
+  grid-template-columns: 0px 1fr 1fr 0px;
 }
 .goods_home-img-container {
   display: flex;
   align-items: center;
   justify-content: center;
+  grid-row: 1;
+  grid-column: 3;
 }
 .goods_home-table-container {
+  grid-row: 1;
+  grid-column: 2;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
