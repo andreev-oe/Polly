@@ -352,40 +352,59 @@ body {
   font-size: 16px;
 }
 .articles {
-  padding: 178px 0;
+  padding: 178px 0 160px 0;
   display: flex;
   flex-direction: column;
   flex-grow: 1;
-  justify-content: space-between;
   border-bottom: 1px solid #111010;
 }
 .articles-text {
   font-size: 128px;
   align-self: center;
+  line-height: 80%;
+  margin-bottom: 50px;
 }
 .articles_cards {
   display: flex;
   flex-grow: 1;
-  justify-content: space-around;
+  justify-content: space-between;
 }
-.article_card {
+.article_card-link:first-child {
+  background-image: url('/img/10_tips.png');
+}
+.article_card-link:last-child {
+  background-image: url('/img/2022_trends.png');
+}
+.article_card-link:nth-of-type(2){
+  background-image: url('/img/how_to_start.png');
+}
+.article_card-title {
+  display: flex;
+  width: 100%;
+  min-height: 55px;
+  font-size: 20px;
+  align-items: center;
+  justify-content: center;
+  background-color: #CAB5EB;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.article_card-link {
   display: flex;
   flex-grow: 1;
   flex-direction: column;
   align-items: center;
   text-align: center;
+  justify-content: flex-end;
   max-width: 435px;
+  min-height: 350px;
+  background-repeat: no-repeat;
+  border: 1px solid black;
+  border-radius: 20px;
+  text-decoration: none;
 }
-.article_card-element-img {
-  max-width: 100%;
-  height: auto;
-}
-.article_card-text {
-  font-size: 17px;
-  margin-bottom: 20px;
-}
-.article_card-name {
-  font-size: 16px;
+.article_card-link:hover {
+  color: #FF9B3D;
 }
 
 
