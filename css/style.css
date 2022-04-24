@@ -406,6 +406,37 @@ body {
 .article_card-link:hover {
   color: #FF9B3D;
 }
+.subscribe {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.subscribe-background {
+  background-image: url('/img/Rectangle.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  min-width: 527px;
+  min-height: 304px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+}
+.subscribe-new-collection-text {
+  font-size: 40px;
+  max-width: 250px;
+  text-align: center;
+}
+.subscribe-new-collection-text:first-of-type {
+  padding: 0 0 30px 0;
+}
+.subscribe_email {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
 
 
 
