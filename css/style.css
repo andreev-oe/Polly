@@ -356,17 +356,17 @@ body {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
-  align-items: center;
   justify-content: space-between;
   border-bottom: 1px solid #111010;
 }
 .articles-text {
   font-size: 128px;
+  align-self: center;
 }
 .articles_cards {
   display: flex;
   flex-grow: 1;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .article_card {
   display: flex;
@@ -374,8 +374,11 @@ body {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  /* margin: 95px 0;
-  max-width: 330px; */
+  max-width: 435px;
+}
+.article_card-element-img {
+  max-width: 100%;
+  height: auto;
 }
 .article_card-text {
   font-size: 17px;
