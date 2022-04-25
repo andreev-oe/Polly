@@ -437,6 +437,7 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  border-left: 1px solid black;
 }
 .subscribe_email-title {
   font-size: 48px;
@@ -466,6 +467,45 @@ body {
 .subscribe_email-field-submit:hover {
   border: 1px solid #CAB5EB;
   cursor: pointer;
+}
+.behind-the-scenes {
+  padding: 170px 0;
+  border-top: 1px solid black;
+}
+.behind-the-scenes {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+.behind-the-scenes-field {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  margin-bottom: 60px;
+}
+.behind-the-scenes-field-title  {
+  margin-right: auto;
+  font-size: 48px;
+}
+.behind-the-scenes-field-text {
+  font-size: 20px;
+  text-decoration: none;
+}
+.behind-the-scenes-field-text:hover {
+  color: #FF9B3D;
+}
+.behind-the-scenes-photo-field {
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-between;
+  height: 320px;
+}
+.behind-the-scenes-photo-field-container:nth-child(2n){
+  align-self: flex-end;
+}
+.behind-the-scenes-photo-field-image  {
+  border: 1px solid black;
+  border-radius: 50%;
 }
 
 
