@@ -111,7 +111,7 @@
           SHOP BY CATEGORY
         </div>
         <div class="goods-container">
-          <a href="#" class="goods_card-link">
+          <a href="#" class="goods_card-category-link">
             <div class="goods_card-shop-category">
               <div class="goods_card-shop-img-container">
                 <img src="img/vases.png" alt="vases" class="goods_card-img-category">
@@ -121,7 +121,7 @@
               </div>
             </div>
           </a>
-          <a href="#" class="goods_card-link">
+          <a href="#" class="goods_card-category-link">
             <div class="goods_card-shop-category">
               <div class="goods_card-shop-img-container">
                 <img src="img/cups.png" alt="cups" class="goods_card-img-category">
@@ -131,7 +131,7 @@
               </div>
             </div>
           </a>
-          <a href="#" class="goods_card-link">
+          <a href="#" class="goods_card-category-link">
             <div class="goods_card-shop-category">
               <div class="goods_card-shop-img-container">
                 <img src="img/plates.png" alt="plates" class="goods_card-img-category">
@@ -153,6 +153,7 @@
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lobortis ante sit amet neque tristique rutrum. Nullam a suscipit ex. Donec ac efficitur mauris.
             </div>
             <div class="goods_home-table">
+              <a href="#" class="navigation_link">SHOP</a>
               <ul>
                 <li>FREE SHIPPING</li>
                 <li>NO NEED TO FIRE</li>
@@ -253,8 +254,8 @@
           <div class="subscribe_email-title">KEEP IN TOUCH</div>
           <div class="subscribe_email-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
           <div class="subscribe_email-field">
-            <input type="text" placeholder="Enter your email" class = "subscribe_email-field-input">
-            <button type="submit" class = "subscribe_email-field-submit">Send</button>
+            <input type="text" placeholder="Enter your email" class = "subscribe_email-field-input" id="subscribe_email-field-input-id">
+            <label for="subscribe_email-field-input-id"><button type="submit" class = "subscribe_email-field-submit">Send</button></label>
           </div>
         </div>
       </section>
@@ -289,38 +290,35 @@
           <div class="footer-content-subscribe">
             <div class="footer-content-subscribe-title">SUBSCRIBE AND GET 10% OFF YOUR FIRST ORDER.</div>
             <div class="footer-content-subscribe-email-field">
-              <input type="text" placeholder="Enter your email" class = "footer-content-subscribe-email-field-input">
-              <button type="submit" class = "footer-content-subscribe-email-field-submit">Send</button>
-            </div>
-            <div class="footer-content-subscribe-links">
-              <a href="#" class="footer-content-subscribe-link">Made by Daniela Tomanova.</a>
-              <a href="#" class="footer-content-subscribe-link">Powered by Webflow.</a>
+              <input type="text" placeholder="Enter your email" class = "footer-content-subscribe-email-field-input" id="footer-content-subscribe-email-field-input-id">
+              <label for="footer-content-subscribe-email-field-input-id"></label><button type="submit" class = "footer-content-subscribe-email-field-submit">Send</button>
             </div>
           </div>
           <div class="footer-content-menu-container">
-            <div class="footer-content-menu-1">
-              <ul>
-                <li>HOME</li>
-                <li>SHOP</li>
-                <li>JOURNAL</li>
-                <li>CONTACT</li>
-              </ul>
+            <div class="footer-content-menu">
+              <a href="#" class="navigation_link">HOME</a>
+              <a href="#" class="navigation_link">SHOP</a>
+              <a href="#" class="navigation_link">JOURNAL</a>
+              <a href="#" class="navigation_link">CONTACT</a>
             </div>
-            <div class="footer-content-menu-2">
-              <ul>
-                <li>ABOUT</li>
-                <li>TERMS AND CONDITIONS</li>
-                <li>PRIVACY POLICY</li>
-              </ul>
+            <div class="footer-content-menu">
+              <a href="#" class="navigation_link">ABOUT</a>
+              <a href="#" class="navigation_link">TERMS AND CONDITIONS</a>
+              <a href="#" class="navigation_link">PRIVACY POLICY</a>
             </div>
-            <div class="footer-content-menu-3">
-              <ul>
-                <li>STYLE GUIDE</li>
-                <li>LICENSING</li>
-                <li>CHANGELOG</li>
-              </ul>
+            <div class="footer-content-menu">
+              <a href="#" class="navigation_link">STYLE GUIDE</a>
+              <a href="#" class="navigation_link">LICENSING</a>
+              <a href="#" class="navigation_link">CHANGELOG</a>
             </div>
           </div>
+        </div>
+        <div class="footer-content-subscribe-links">
+          <a href="#" class="footer-content-subscribe-link">Made by Daniela Tomanova.</a>
+          <a href="#" class="footer-content-subscribe-link">Powered by Webflow.</a>
+          <a href="#" class="footer-content-subscribe-link"><img src="/icons/facebook.svg" alt="twitter"></a>
+          <a href="#" class="footer-content-subscribe-link"><img src="/icons/twitter.svg" alt="twitter"></a>
+          <a href="#" class="footer-content-subscribe-link"><img src="/icons/instagram.svg" alt="twitter"></a>
         </div>
       </div>
     </footer>

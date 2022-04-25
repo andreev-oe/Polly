@@ -214,6 +214,13 @@ body {
   font-size: 48px;
   margin-bottom: 80px;
 }
+.goods_card-category-link {
+  text-decoration: none;
+  color: black;
+}
+.goods_card-category-link:hover {
+  color: #FFFFFF;
+}
 .goods_card-category-description {
   font-size: 32px;
   min-height: 145px;
@@ -404,7 +411,7 @@ body {
   text-decoration: none;
 }
 .article_card-link:hover {
-  color: #FF9B3D;
+  color: #FFFFFF;
 }
 .subscribe {
   display: grid;
@@ -513,6 +520,11 @@ body {
   background-color: #CAB5EB;
   border-top: 1px solid black;
 }
+.footer-container {
+  max-width: 1376px;
+  height: auto;
+  margin: 0 auto 0 auto;
+}
 .footer-title {
   font-size: 206px;
   font-weight: bold;
@@ -524,37 +536,78 @@ body {
   flex-grow: 1;
   justify-content: space-between;
 }
-.footer-content-menu-container {
-  display: flex;
-  flex-grow: 1;
-  justify-content: space-between;
-}
 .footer-content-subscribe {
-  max-width: 347px;
+  max-width: 380px;
 }
 .footer-content-subscribe-title {
   font-size: 27px;
+  margin-bottom: 25px;
 }
 .footer-content-subscribe-email-field {
-  display: flex;
+  display: grid;
+  grid-template-columns: 304px 76px;
   align-items: center;
+  margin-bottom: 75px;
 }
 .footer-content-subscribe-email-field-input {
   font-size: 18px;
   height: 65px;
   width: 304px;
   border-radius: 20px;
+
 }
 .footer-content-subscribe-email-field-submit {
+  grid-area: 1/2;
   font-size: 18px;
   height: 74px;
   width: 112px;
   border-radius: 40px;
   background-color: #FFDB5B;
   position: relative;
-  right: 37px;
+  right: 40px;
 }
 .footer-content-subscribe-email-field-submit:hover {
   border: 1px solid #CAB5EB;
   cursor: pointer;
+}
+.footer-content-subscribe-link {
+  font-size: 15px;
+}
+.footer-content-menu-container {
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-between;
+}
+.footer-content-menu {
+  display: flex;
+  flex-direction: column;
+  min-width: 230px;
+  font-size: 16px;
+}
+.footer-content-menu a{
+  padding-bottom: 25px;
+}
+.footer-content-menu a:hover{
+  color: #FFFFFF;
+}
+.footer-content-menu:first-of-type {
+  margin-left: auto;
+}
+.footer-content-subscribe-links {
+  display: flex;
+}
+.footer-content-subscribe-link:hover {
+  color: #FFFFFF;
+}
+.footer-content-subscribe-link:nth-of-type(3) {
+  margin-left: auto;
+}
+.footer-content-subscribe-link:nth-of-type(-n+3) {
+  padding-right: 8px;
+}
+.footer-content-subscribe-link:nth-of-type(n+3) {
+  padding-right: 30px;
+}
+.footer-content-subscribe-link:last-of-type {
+  padding-right: 0;
 }
